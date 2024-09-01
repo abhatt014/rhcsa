@@ -1,0 +1,8 @@
+Log in to VM as the student user.
+Generate SSH keys for the student user. Do not protect the private key with a passphrase. Save the private and public keys as the /home/student/.ssh/review3_key and /home/student/.ssh/review3_key.pub files respectively.
+Configure the student user on servera to accept logins that are authenticated by the review3_key SSH key pair. The student user on serverb should be able to log in to servera by using SSH without entering a password.
+On serverb, configure the sshd service to prevent the root user from logging in.
+On serverb, configure the sshd service to prevent users from using their passwords to log in. Users should still be able to authenticate logins by using an SSH key pair.
+Install the zsh package on the serverb machine.
+
+
