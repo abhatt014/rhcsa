@@ -1,0 +1,10 @@
+On VM1, determine the name of the Ethernet interface and its active connection profile.
+On VM2, create and activate a static connection profile for the available Ethernet interface. The static profile statically sets network settings and does not use DHCP. Configure the static profile to use the network settings in the following table:
+  Parameter	Setting ->
+  IPv4 address	192.168.106.111
+  Netmask	255.255.255.0
+  Gateway	192.168.106.2
+  DNS Server	8.8.8.8
+Set the VM1 hostname to server4.example.com.
+Configure the static connection profile with an additional IPv4 address of 172.25.250.211 with a netmask of 255.255.255.0. Do not remove the existing IPv4 address. Ensure that serverb responds to all addresses when the static connection is active.
+On VM2, restore the original network settings by activating the original network connection profile.
