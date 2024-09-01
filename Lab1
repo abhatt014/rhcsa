@@ -1,0 +1,12 @@
+Log in to serverb as the student user.
+Create the /home/student/grading directory.
+Create three empty files called grade1, grade2, and grade3, in the /home/student/grading directory.
+Capture the first five lines of the /etc/passwd file in the /home/student/grading/review.txt file.
+Append the last three lines of the /etc/passwd file to the /home/student/grading/review.txt file. Do not overwrite any existing text in the /home/student/grading/review.txt file.
+Copy the /home/student/grading/review.txt file to the /home/student/grading/review-copy.txt file.
+Edit the /home/student/grading/review-copy.txt file so that the user studet details appears twice.
+Edit the /home/student/grading/review-copy.txt file to remove root user details.
+Create the /home/student/hardcopy hard link to the /home/student/grading/grade1 file. You must create the hard link after completing the earlier step to create the /home/student/grading/grade1 file.
+Create the /home/student/softcopy symbolic link to the /home/student/grading/grade2 file.
+Save the output of a command that lists the contents of the /boot directory to the /home/student/grading/longlisting.txt file. The output should be a "long listing" that includes file permissions, owner and group owner, size, and modification date of each file. The output should omit hidden files.
+
