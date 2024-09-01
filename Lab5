@@ -1,0 +1,6 @@
+Log in to the VM  as the student user and switch to the root user. Add 2 HDD of 1 GB Each
+Create a 1GB Partition using gdisk command , Apply xfs filesystem and mount the block device on the /disk1 directory permanently. 
+Create 3 PVS of 300 MB each, create VG redhat and then create 2 LV's - disk1(100M , xfs) , disk2(100M,ext4) . Mount lvs on /data1 and /data2 permanently
+Locate the review5-path file. Create the /review5-disk/review5-path.txt file that contains a single line with the absolute path to the review5-path file.
+Locate all the files that the contractor1 user and the contractor group own. The files must also have the 640 octal permissions. Save the list of these files in the /review5-disk/review5-perms.txt file.
+Locate all files with a size of 100 bytes. Save the absolute paths of these files in the /review5-disk/review5-size.txt file.
